@@ -1,13 +1,14 @@
 <h2>Animals from Down Under</h2>
 
-<form action="/animals" method="post">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="animalName">
+<form action="/animals/newAnimalPath" method="POST">
+  <label> Animal Name </label>
+  <input type="text" name="animalName">
+  <br>
+  <label> Animal Species </label>
+  <input type="text" name="animalType">
+  <br>
 
-  <label for="type">Type:</label>
-  <input type="text" id="type" name="animalType">
-
-  <input type="submit">
+  <input type="submit" value="Add Animal">
 </form>
 
 <ul>
