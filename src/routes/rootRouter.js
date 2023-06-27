@@ -4,9 +4,9 @@ import animalsRouter from "./animalsRouter.js"
 
 const rootRouter = new express.Router()
 
-// rootRouter.get("/", (req,res) => {
-//   res.redirect("/animals")
-// })
+rootRouter.get("/", (req,res) => {
+  res.redirect("/animals")
+})
 
 rootRouter.use("/animals", animalsRouter)
 

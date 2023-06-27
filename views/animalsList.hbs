@@ -1,0 +1,22 @@
+<h2>Animals from Down Under</h2>
+
+<form method="POST" action="/banana">
+
+  <label>Animal Name:
+    <input type="text" name="animalName">
+  </label>
+
+  <br>
+
+  <label>Animal Type:
+    <input type="text" name="animalType">
+  </label>
+
+  <input type="submit" value="Wrangle Animal">
+</form>
+
+<ul>
+  {{#each animals }}
+    <li>{{ this.name }}, {{ this.type }}</li>
+  {{/each}}
+</ul>
