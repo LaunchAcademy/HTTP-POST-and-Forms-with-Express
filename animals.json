@@ -1,1 +1,9 @@
-{"animals":[{"id":1,"name":"Koala","type":"Marsupial"},{"id":2,"name":"Platypus","type":"Monotreme"},{"id":3,"name":"Quokka","type":"Marsupial"},{"id":4,"name":"Kookaburra","type":"Bird"},{"id":5,"name":"Kangaroo","type":"Mammal"},{"id":6,"name":"Kangaroo","type":"Mammal"},{"id":7,"name":"Cat","type":"mammal"},{"id":8,"name":"Pup","type":"Mammal"},{"id":9,"name":"Bunny","type":"Mammal"},{"id":10,"name":"cat","type":"mammal"},{"id":11,"name":"snake","type":"reptile"}]}
+{
+  "animals": [
+    { "name": "Koala", "type": "Marsupial" },
+    { "name": "Platypus", "type": "Monotreme" },
+    { "name": "Quokka", "type": "Marsupial" },
+    { "name": "Kookaburra", "type": "Bird" },
+    { "name": "Kangaroo", "type": "Mammal" }
+  ]
+}
