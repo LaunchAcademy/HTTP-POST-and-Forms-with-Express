@@ -5,13 +5,16 @@ const animalsPath = "animals.json"
 
 class Animal {
   constructor({ name, type }) {
+  // constructor(name, type) {
     this.name = name
     this.type = type
   }
 
   static findAll() {
     const animalFileContents = fs.readFileSync(animalsPath)
+    console.log(animalFileContents)
     const parsedContents = JSON.parse(animalFileContents)
+    console.log("parsed", parsedContents)
     const animalData = parsedContents.animals
     // const animalData = JSON.parse(fs.readFileSync(animalsPath)).animals
     // console.log("animals data", animalData)
@@ -19,7 +22,7 @@ class Animal {
     const animals = animalData.map((animal) => {
       return new Animal(animal)
     })
-    // console.log("array of Animal objects", animals)
+    console.log("array of Animal objects", animals)
     return animals
   }
 
@@ -29,6 +32,7 @@ class Animal {
 
     // get all animals from JSON file
     const allAnimals = this.constructor.findAll()
+    // const allAnimals = Animal.findAll()
     console.log("all animals", allAnimals)
 
     // add our animal, `this` to the array

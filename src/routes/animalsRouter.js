@@ -4,10 +4,11 @@ import Animal from "../models/Animal.js"
 
 const animalsRouter = new express.Router()
 
+// "/animals"
 animalsRouter.get("/", (req, res) => {
   const allAnimals = Animal.findAll()
 
-  res.render("index", { animals: allAnimals, message: "first load! welcome!" })
+  res.render("index", { animals: allAnimals})
   // res.render("index", { animals: Animal.findAll() })
 })
 
