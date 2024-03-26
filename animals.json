@@ -1,9 +1,1 @@
-{
-  "animals": [
-    { "name": "Koala", "type": "Marsupial" },
-    { "name": "Platypus", "type": "Monotreme" },
-    { "name": "Quokka", "type": "Marsupial" },
-    { "name": "Kookaburra", "type": "Bird" },
-    { "name": "Kangaroo", "type": "Mammal" }
-  ]
-}
+{"animals":[{"name":"Koala","type":"Marsupial"},{"name":"Platypus","type":"Monotreme"},{"name":"Quokka","type":"Marsupial"},{"name":"Kookaburra","type":"Bird"},{"name":"Kangaroo","type":"Mammal"},{"name":"Dingo","type":"canine"},{"name":"Wombat","type":"marsupial"}]}
